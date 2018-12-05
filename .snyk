@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - mosca > leveldown > prebuild > node-gyp > path-array > array-index > debug:
+        patched: '2018-12-05T05:14:06.826Z'
+    - mosca > leveldown > prebuild > node-ninja > path-array > array-index > debug:
+        patched: '2018-12-05T05:14:06.826Z'
+    - mosca > ascoltatori > kafka-node > snappy > node-gyp > path-array > array-index > debug:
+        patched: '2018-12-05T05:14:06.826Z'
